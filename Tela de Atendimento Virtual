@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lael Lacerda Dev </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="rectangle"></div>
+      <div class="rectangle-1"><div class="image"></div></div>
+      <span class="fale-conosco"
+        >Fale conosco através do nosso atendimento virtual!</span
+      >
+      <div class="rectangle-2">
+        <span class="avalie-servico">Avalie nosso serviço!</span
+        ><span class="conte-experiencia"
+          >Conte-nos como foi sua experiência!</span
+        >
+        <div class="flex-row-d">
+          <div class="image-3"></div>
+          <div class="image-4"></div>
+          <div class="image-5"></div>
+          <div class="image-6"></div>
+          <div class="image-7"></div>
+        </div>
+        <div class="rectangle-8">
+          <span class="como-podemos-ajudar">Como podemos ajudar?.....</span>
+          <div class="vector"></div>
+          <div class="logofitfusionn"></div>
+        </div>
+      </div>
+      <div class="rectangle-9"></div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+*CÓDIGO EM CSS*
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1360px;
+  height: 768px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.rectangle {
+  position: absolute;
+  width: 1548px;
+  height: 1024px;
+  top: -119px;
+  left: -182px;
+  background: url(./assets/images/6566594d-fece-4d99-9f29-9e74bf8f574c.png)
+    no-repeat center;
+  background-size: cover;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 487px;
+  height: 768px;
+  top: 0;
+  left: 0;
+  background: #d9d9d9;
+  z-index: 5;
+}
+.image {
+  position: relative;
+  width: 487px;
+  height: 766px;
+  margin: 2px 0 0 0;
+  background: url(./assets/images/3089b4cf4e78bc61010d6c71212be45a1bfea6f7.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+}
+.fale-conosco {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  height: 38px;
+  top: 14px;
+  left: 541px;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.568px;
+  text-align: left;
+  white-space: nowrap;
+  background: linear-gradient(180deg, #000000, #666666);
+  z-index: 1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 715px;
+  height: 680px;
+  top: 65px;
+  left: 580px;
+  font-size: 0px;
+  background: url(./assets/images/b5c693e2-55f1-48ae-9059-187731e776cc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+}
+.avalie-servico {
+  display: block;
+  position: relative;
+  height: 41px;
+  margin: 6px 0 0 183px;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: left;
+  white-space: nowrap;
+  background: linear-gradient(180deg, #000000, #666666);
+  z-index: 3;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.conte-experiencia {
+  display: block;
+  position: relative;
+  height: 41px;
+  margin: 16px 0 0 52px;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: left;
+  white-space: nowrap;
+  background: linear-gradient(180deg, #000000, #666666);
+  z-index: 4;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.flex-row-d {
+  position: relative;
+  width: 349px;
+  height: 54px;
+  margin: 16px 0 0 197px;
+  z-index: 14;
+}
+.image-3 {
+  position: absolute;
+  width: 69px;
+  height: 54px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/8c6bce1341aec636c906e2779c1bcb3945e5e5cc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.image-4 {
+  position: absolute;
+  width: 69px;
+  height: 54px;
+  top: 0;
+  left: 66px;
+  background: url(./assets/images/8c6bce1341aec636c906e2779c1bcb3945e5e5cc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+}
+.image-5 {
+  position: absolute;
+  width: 69px;
+  height: 54px;
+  top: 0;
+  left: 135px;
+  background: url(./assets/images/8c6bce1341aec636c906e2779c1bcb3945e5e5cc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+}
+.image-6 {
+  position: absolute;
+  width: 69px;
+  height: 54px;
+  top: 0;
+  left: 204px;
+  background: url(./assets/images/8c6bce1341aec636c906e2779c1bcb3945e5e5cc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+}
+.image-7 {
+  position: absolute;
+  width: 69px;
+  height: 54px;
+  top: 0;
+  left: 280px;
+  background: url(./assets/images/8c6bce1341aec636c906e2779c1bcb3945e5e5cc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 14;
+}
+.rectangle-8 {
+  position: relative;
+  width: 626px;
+  height: 438px;
+  margin: 31px 0 0 44px;
+  font-size: 0px;
+  background: no-repeat center;
+  background-size: cover;
+  z-index: 7;
+  overflow: hidden;
+}
+.como-podemos-ajudar {
+  display: block;
+  position: relative;
+  height: 25px;
+  margin: 24px 0 0 8px;
+  font-family: Raleway, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.48px;
+  text-align: left;
+  white-space: nowrap;
+  background: linear-gradient(180deg, #000000, #666666);
+  z-index: 2;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.vector {
+  position: relative;
+  width: 3px;
+  height: 3.25px;
+  margin: 139px 0 0 353.25px;
+  background: url(./assets/images/55e697c0-760e-4725-b4eb-89e6159c9e5d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+}
+.logofitfusionn {
+  position: relative;
+  width: 156px;
+  height: 59px;
+  margin: 174.75px 0 0 230px;
+  background: url(./assets/images/52cf36bba8a3f3caa8c54051adfbfda1fb0dbf34.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+}
+.rectangle-9 {
+  position: absolute;
+  width: 1548px;
+  height: 1024px;
+  top: 524px;
+  left: 797px;
+  background: url(./assets/images/f2beab41-2c5a-44f2-b34c-88565495f97f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+
+
+
