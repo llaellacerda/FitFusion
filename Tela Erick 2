@@ -46,30 +46,31 @@
           </div>
           <div class="vector-d"></div>
           <div class="location-on"><div class="icon-e"></div></div>
-          <span class="span-patos-pb">Patos - PB</span>
-          <div class="clock"><div class="icon-f"></div></div>
+          <span class="patos-pb">Patos - PB</span>
+          <div class="vector-f"></div>
+          <div class="clock"><div class="icon-10"></div></div>
           <div class="flex-row-b">
-            <span class="span-h">24H</span>
-            <div class="rectangle-10">
-              <div class="icon-11"></div>
-              <span class="voltar-12">Voltar</span>
+            <span class="h-24h">24H</span>
+            <div class="rectangle-11">
+              <div class="icon-12"></div>
+              <span class="voltar-13">Voltar</span>
             </div>
           </div>
         </div>
         <div class="academia-musculacao"></div>
       </div>
       <div class="flex-column-cd">
-        <div class="circle-13">
-          <div class="icon-14"></div>
-          <div class="facebook-15"><div class="icon-16"></div></div>
+        <div class="circle-14">
+          <div class="icon-15"></div>
+          <div class="facebook-16"><div class="icon-17"></div></div>
         </div>
-        <span class="fit-fusion-17">Fit Fusion</span>
+        <span class="fit-fusion-18">Fit Fusion</span>
       </div>
-      <div class="vector-18"></div>
       <div class="academia-musculacao-19"></div>
     </div>
   </body>
 </html>
+
 
 *CODIGO CSS*
 
@@ -128,7 +129,7 @@ button {
   height: 30px;
   top: 7px;
   left: 10px;
-  background: url(./assets/images/e5b8a200-4a55-4146-ba58-d0bfbf34fb74.png)
+  background: url(./assets/images/790fef45-be93-4f65-b91e-338e5e476a06.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 34;
@@ -167,8 +168,8 @@ button {
   position: relative;
   width: 50.833px;
   height: 52.5px;
-  margin: 5.25px 0 0 547.083px;
-  background: url(./assets/images/6f122eb3-a8eb-4736-92e1-d3c4f3e921c7.png)
+  margin: 0.25px 0 0 528.083px;
+  background: url(./assets/images/c1911d0b-869b-4e56-9268-1dda7674a8d2.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 3;
@@ -177,7 +178,7 @@ button {
   display: block;
   position: relative;
   height: 46px;
-  margin: -3.75px 0 0 446px;
+  margin: 1.25px 0 0 446px;
   color: #000000;
   font-family: Inter, var(--default-font-family);
   font-size: 32px;
@@ -209,7 +210,7 @@ button {
   height: 87.18%;
   top: 6.41%;
   left: 6.41%;
-  background: url(./assets/images/cfdb098a-6b77-43ef-b42b-7e637e964f40.png)
+  background: url(./assets/images/ff17eb12-e1ad-41cc-ae07-05008dfa64ad.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 9;
@@ -228,7 +229,7 @@ button {
   width: 59px;
   height: 59px;
   margin: 3.5px 0 0 3.5px;
-  background: url(./assets/images/0e375ad1-b908-4661-83e3-bde1cba8a314.png)
+  background: url(./assets/images/d04cfba6-521e-4108-b5e5-6186f54a8124.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 17;
@@ -248,18 +249,18 @@ button {
   height: 87.18%;
   top: 6.41%;
   left: 6.41%;
-  background: url(./assets/images/9d200249-6d98-41f7-b8b3-efe769292550.png)
+  background: url(./assets/images/9537bda6-d87d-423b-a757-85421f17e053.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 11;
 }
 .vector {
   position: absolute;
-  width: 61px;
-  height: 61px;
+  width: 57px;
+  height: 57px;
   top: 23px;
-  left: 21px;
-  background: url(./assets/images/886fe813-f202-4c22-9725-e59c3e3fff53.png)
+  left: 25px;
+  background: url(./assets/images/7ed5604f-914c-47d2-ae11-2cde612efefc.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 19;
@@ -279,7 +280,7 @@ button {
   height: 87.18%;
   top: 6.41%;
   left: 6.41%;
-  background: url(./assets/images/ec5014e3-6a23-4f3d-8c00-0ff3bee5b4d8.png)
+  background: url(./assets/images/428a9d1d-b6d7-4f63-8571-391b274aff5e.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 6;
@@ -290,7 +291,7 @@ button {
   height: 66px;
   top: 16px;
   left: 19px;
-  background: url(./assets/images/d12f001e-a26c-4e85-adaa-74dc1e570b49.png)
+  background: url(./assets/images/09b8a08d-3f4b-432b-adc5-75f72a25be6a.png)
     no-repeat center;
   background-size: cover;
   z-index: 7;
@@ -310,7 +311,7 @@ button {
   height: 87.18%;
   top: 6.41%;
   left: 6.41%;
-  background: url(./assets/images/558de2cf-ed95-4cb6-9ed3-0d0ddbd420e0.png)
+  background: url(./assets/images/f674e1ee-c3be-430c-8cdd-ce1de63a833b.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 47;
@@ -329,7 +330,7 @@ button {
   width: 34.25px;
   height: 59px;
   margin: 3.5px 0 0 17.25px;
-  background: url(./assets/images/d37fbb54-10fd-48d8-9bff-677d7e2abcca.png)
+  background: url(./assets/images/44a26636-73a3-4395-8016-152860a9647a.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 45;
@@ -417,7 +418,7 @@ button {
   width: 1107px;
   height: 1px;
   margin: 20.5px 0 0 0;
-  background: url(./assets/images/c91f6102-55e5-4b94-ad8d-556110b5d2cf.png)
+  background: url(./assets/images/d7677c16-b2b4-42aa-9e06-b02879b814d4.png)
     no-repeat center;
   background-size: cover;
   z-index: 24;
@@ -426,7 +427,7 @@ button {
   position: relative;
   width: 50px;
   height: 50px;
-  margin: 21.5px 0 0 548px;
+  margin: 8.5px 0 0 528px;
   z-index: 25;
   overflow: hidden;
 }
@@ -435,16 +436,16 @@ button {
   width: 29.167px;
   height: 41.667px;
   margin: 4.167px 0 0 10.417px;
-  background: url(./assets/images/a7e6fddd-eef1-4ce2-9c6b-cfa034b3c6f3.png)
+  background: url(./assets/images/cbc605e4-3a57-4128-b326-ab74a9f8eaa4.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 26;
 }
-.span-patos-pb {
+.patos-pb {
   display: block;
   position: relative;
   height: 29px;
-  margin: 17px 0 0 512px;
+  margin: 14px 0 0 493px;
   color: #000000;
   font-family: Inter, var(--default-font-family);
   font-size: 24px;
@@ -454,39 +455,49 @@ button {
   white-space: nowrap;
   z-index: 27;
 }
+.vector-f {
+  position: relative;
+  width: 1107.001px;
+  height: 2px;
+  margin: 23.5px 0 0 0px;
+  background: url(./assets/images/0bf6f78f-be6d-4a7d-8978-4245b8690e38.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 28;
+}
 .clock {
   position: relative;
   width: 59px;
   height: 59px;
-  margin: 22px 0 0 542px;
+  margin: 4.5px 0 0 524px;
   z-index: 29;
   overflow: hidden;
 }
-.icon-f {
+.icon-10 {
   position: relative;
   width: 53.167px;
   height: 53.167px;
   margin: 2.917px 0 0 2.917px;
-  background: url(./assets/images/274a10c8-1ce9-4171-879d-67485405e4af.png)
+  background: url(./assets/images/8c39c9be-1c95-40e6-81f6-5591841fc3b9.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 30;
 }
 .flex-row-b {
   position: relative;
-  width: 642px;
+  width: 629px;
   height: 78px;
-  margin: 3px 0 0 30px;
+  margin: 5px 0 0 25px;
   z-index: 42;
 }
-.span-h {
+.h-24h {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
   height: 78px;
   top: 0;
-  left: 490px;
+  left: 477px;
   color: #000000;
   font-family: Inter, var(--default-font-family);
   font-size: 48px;
@@ -496,29 +507,29 @@ button {
   white-space: nowrap;
   z-index: 31;
 }
-.rectangle-10 {
+.rectangle-11 {
   position: absolute;
   width: 132px;
   height: 45px;
-  top: 7px;
+  top: 1px;
   left: 0;
   background: rgba(217, 217, 217, 0);
   border: 1px solid #000000;
   z-index: 42;
   border-radius: 6px;
 }
-.icon-11 {
+.icon-12 {
   position: absolute;
   width: 32px;
   height: 32px;
   top: 6px;
   left: 9px;
-  background: url(./assets/images/95971732-fc86-4b3c-a550-fb75d9997e3d.png)
+  background: url(./assets/images/26c0016c-b3e2-4387-b8dc-f8070894d526.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 41;
 }
-.voltar-12 {
+.voltar-13 {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -556,7 +567,7 @@ button {
   left: 1127px;
   z-index: 23;
 }
-.circle-13 {
+.circle-14 {
   position: relative;
   width: 132px;
   height: 132px;
@@ -564,18 +575,18 @@ button {
   z-index: 12;
   overflow: hidden;
 }
-.icon-14 {
+.icon-15 {
   position: absolute;
   width: 83.33%;
   height: 83.33%;
   top: 8.33%;
   left: 8.33%;
-  background: url(./assets/images/7bae0feb-e4c7-4a35-b93e-96b086858504.png)
+  background: url(./assets/images/89e5de8f-37ef-49de-b8e2-e635ec214a3a.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 13;
 }
-.facebook-15 {
+.facebook-16 {
   position: absolute;
   width: 84px;
   height: 96px;
@@ -584,17 +595,17 @@ button {
   z-index: 14;
   overflow: hidden;
 }
-.icon-16 {
+.icon-17 {
   position: relative;
   width: 38.5px;
   height: 80px;
   margin: 8px 0 0 24.5px;
-  background: url(./assets/images/5db9195f-37a5-4826-baa5-1d90e0928bf0.png)
+  background: url(./assets/images/9450a430-89bb-4a8a-a4fb-b8c65998c338.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 15;
 }
-.fit-fusion-17 {
+.fit-fusion-18 {
   display: block;
   position: relative;
   height: 29px;
@@ -607,17 +618,6 @@ button {
   text-align: left;
   white-space: nowrap;
   z-index: 23;
-}
-.vector-18 {
-  position: absolute;
-  width: 1118px;
-  height: 1px;
-  top: 384.5px;
-  left: 10px;
-  background: url(./assets/images/d0f52697-bd57-4ca4-b889-0669eaaccebf.png)
-    no-repeat center;
-  background-size: cover;
-  z-index: 28;
 }
 .academia-musculacao-19 {
   position: absolute;
