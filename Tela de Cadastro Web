@@ -1,1 +1,783 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="rectangle"></div>
+            <img class="image" src="img/image-3.png" />
+            <div class="div"></div>
+            <div class="rectangle-2"></div>
+            <div class="ellipse"></div>
+            <img class="person" src="img/person-24px.svg" />
+            <div class="text-wrapper">Seu nome</div>
+            <div class="text-wrapper-2">Atualize seu perfil!</div>
+            <div class="group">
+              <div class="div-wrapper"><div class="text-wrapper-3">Salvar</div></div>
+              <div class="overlap-2"><div class="text-wrapper-4">Cancelar</div></div>
+            </div>
+          </div>
+          <div class="overlap-3">
+            <img class="img" src="img/rectangle-5.png" />
+            <div class="rectangle-3"></div>
+            <div class="text-wrapper-5">Configurações</div>
+            <div class="text-wrapper-6">Perfil</div>
+            <div class="text-wrapper-7">Senha</div>
+            <div class="text-wrapper-8">Notificação</div>
+            <div class="text-wrapper-9">Suporte</div>
+            <div class="rectangle-4"></div>
+            <div class="text-wrapper-10">Nome de usuário</div>
+            <div class="text-wrapper-11">Seu nome</div>
+            <div class="text-wrapper-12">Bio</div>
+            <div class="text-wrapper-13">Seu nome de usuário</div>
+            <div class="text-wrapper-14">Seu nome</div>
+            <div class="text-wrapper-15">Sua bio</div>
+            <div class="email-form">
+              <div class="rectangle-5"></div>
+              <div class="rectangle-6"></div>
+              <div class="rectangle-7"></div>
+            </div>
+            <div class="text-wrapper-16">Social</div>
+            <div class="text-wrapper-17">Treinos</div>
+            <div class="overlap-group-wrapper">
+              <div class="overlap-4">
+                <img class="arrow-left-contained" src="img/arrow-left-contained-02-1.svg" />
+                <div class="rectangle-8"></div>
+                <div class="text-wrapper-18">Voltar</div>
+              </div>
+            </div>
+            <img class="vector" src="img/vector-2.svg" />
+          </div>
+          <div class="group-2"></div>
+          <div class="overlap-5">
+            <div class="group-3">
+              <div class="overlap-group-2">
+                <div class="ellipse-2"></div>
+                <img class="vector-2" src="img/vector-1-1.svg" />
+              </div>
+            </div>
+            <div class="text-wrapper-19">Search</div>
+          </div>
+          <div class="overlap-6">
+            <div class="group-4">
+              <div class="overlap-group-2">
+                <div class="ellipse-2"></div>
+                <img class="vector-2" src="img/vector-1-1.svg" />
+              </div>
+            </div>
+            <div class="text-wrapper-20">Search</div>
+          </div>
+          <div class="text-wrapper-21">02/09/2024</div>
+          <div class="text-wrapper-22">Bem vindo, Fabio!</div>
+          <img class="image-2" src="img/image-2.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+* CÓDIGO CSS PRINCIPAL*
+
+
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1548px;
+  height: 1024px;
+}
+
+.desktop .overlap {
+  position: relative;
+  width: 1874px;
+  height: 1809px;
+  top: 4px;
+  left: -377px;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 828px;
+  height: 315px;
+  top: 156px;
+  left: 1046px;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 732px;
+  height: 284px;
+  top: 19px;
+  left: 1px;
+  border-radius: 16px;
+  border: 1px solid;
+  border-color: #f5f5f5;
+}
+
+.desktop .image {
+  width: 827px;
+  height: 315px;
+  top: 0;
+  left: 1px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .div {
+  position: absolute;
+  width: 828px;
+  height: 134px;
+  top: 181px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  width: 827px;
+  height: 315px;
+  top: 0;
+  left: 1px;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: #808080;
+}
+
+.desktop .ellipse {
+  position: absolute;
+  width: 172px;
+  height: 171px;
+  top: 96px;
+  left: 48px;
+  background-color: #17273a;
+  border-radius: 86px/85.5px;
+}
+
+.desktop .person {
+  position: absolute;
+  width: 118px;
+  height: 109px;
+  top: 129px;
+  left: 75px;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  height: 27px;
+  top: 203px;
+  left: 256px;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(102, 102, 102) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Raleway", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  height: 23px;
+  top: 235px;
+  left: 256px;
+  font-family: "Radio Canada", Helvetica;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .group {
+  position: absolute;
+  width: 210px;
+  height: 37px;
+  top: 219px;
+  left: 572px;
+}
+
+.desktop .div-wrapper {
+  position: absolute;
+  width: 104px;
+  height: 57px;
+  top: -6px;
+  left: -10px;
+  background-image: url(./img/sign-in-button.png);
+  background-size: 100% 100%;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  height: 27px;
+  top: 11px;
+  left: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-2 {
+  position: absolute;
+  width: 120px;
+  height: 57px;
+  top: -6px;
+  left: 96px;
+  background-image: url(./img/sign-in-button-1.png);
+  background-size: 100% 100%;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  height: 27px;
+  top: 11px;
+  left: 18px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #808080;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-3 {
+  position: absolute;
+  width: 1874px;
+  height: 1809px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 1548px;
+  height: 1024px;
+  top: 785px;
+  left: 0;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  width: 279px;
+  height: 280px;
+  top: 154px;
+  left: 731px;
+  border-radius: 20px;
+  border: 1.5px solid;
+  border-color: #afafaf;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  height: 27px;
+  top: 174px;
+  left: 758px;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(102, 102, 102) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Raleway", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  height: 27px;
+  top: 227px;
+  left: 768px;
+  font-family: "Raleway", Helvetica;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  height: 27px;
+  top: 276px;
+  left: 768px;
+  font-family: "Raleway", Helvetica;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-8 {
+  position: absolute;
+  height: 27px;
+  top: 325px;
+  left: 768px;
+  font-family: "Raleway", Helvetica;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  height: 27px;
+  top: 374px;
+  left: 768px;
+  font-family: "Raleway", Helvetica;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .rectangle-4 {
+  position: absolute;
+  width: 827px;
+  height: 1009px;
+  top: 496px;
+  left: 1047px;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: #808080;
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  height: 20px;
+  top: 545px;
+  left: 1110px;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(102, 102, 102) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Raleway", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-11 {
+  height: 20px;
+  top: 659px;
+  left: 1110px;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(102, 102, 102) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Raleway", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 17px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-12 {
+  position: absolute;
+  height: 20px;
+  top: 766px;
+  left: 1110px;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(102, 102, 102) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Raleway", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-13 {
+  position: absolute;
+  height: 19px;
+  top: 584px;
+  left: 1124px;
+  font-family: "Radio Canada", Helvetica;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-14 {
+  height: 19px;
+  top: 699px;
+  left: 1121px;
+  font-family: "Radio Canada", Helvetica;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-size: 16px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-15 {
+  position: absolute;
+  height: 19px;
+  top: 806px;
+  left: 1121px;
+  font-family: "Radio Canada", Helvetica;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .email-form {
+  position: absolute;
+  width: 714px;
+  height: 366px;
+  top: 570px;
+  left: 1110px;
+}
+
+.desktop .rectangle-5 {
+  position: absolute;
+  width: 714px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #00000040;
+  box-shadow: 0px 4px 10px #00000040;
+}
+
+.desktop .rectangle-6 {
+  position: absolute;
+  width: 714px;
+  height: 50px;
+  top: 115px;
+  left: 0;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #00000040;
+  box-shadow: 0px 4px 10px #00000040;
+}
+
+.desktop .rectangle-7 {
+  position: absolute;
+  width: 714px;
+  height: 145px;
+  top: 223px;
+  left: 0;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #00000040;
+  box-shadow: 0px 4px 10px #00000040;
+}
+
+.desktop .text-wrapper-16 {
+  position: absolute;
+  width: 279px;
+  height: 61px;
+  top: 313px;
+  left: 479px;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(102, 102, 102) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Raleway", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-17 {
+  position: absolute;
+  width: 279px;
+  height: 61px;
+  top: 237px;
+  left: 470px;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(102, 102, 102) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Raleway", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-group-wrapper {
+  position: absolute;
+  width: 134px;
+  height: 45px;
+  top: 956px;
+  left: 434px;
+}
+
+.desktop .overlap-4 {
+  position: relative;
+  width: 132px;
+  height: 45px;
+  border-radius: 6px;
+}
+
+.desktop .arrow-left-contained {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 3px;
+  left: 6px;
+}
+
+.desktop .rectangle-8 {
+  position: absolute;
+  width: 132px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.desktop .text-wrapper-18 {
+  position: absolute;
+  height: 28px;
+  top: 10px;
+  left: 53px;
+  font-family: "Radley", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .vector {
+  position: absolute;
+  width: 10px;
+  height: 1000px;
+  top: 0;
+  left: 694px;
+}
+
+.desktop .group-2 {
+  position: absolute;
+  width: 193px;
+  height: 73px;
+  top: 40px;
+  left: 434px;
+  background-image: url(./img/logofitfusionn-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .overlap-5 {
+  position: absolute;
+  width: 239px;
+  height: 52px;
+  top: 154px;
+  left: 410px;
+  border-radius: 6px;
+}
+
+.desktop .group-3 {
+  position: absolute;
+  width: 23px;
+  height: 24px;
+  top: 14px;
+  left: 20px;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  width: 24px;
+  height: 25px;
+}
+
+.desktop .ellipse-2 {
+  position: absolute;
+  width: 22px;
+  height: 23px;
+  top: 0;
+  left: 0;
+  border-radius: 11px/11.5px;
+  border: 1.5px solid;
+  border-color: #b0b0b0;
+}
+
+.desktop .vector-2 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 18px;
+  left: 17px;
+}
+
+.desktop .text-wrapper-19 {
+  position: absolute;
+  height: 22px;
+  top: 15px;
+  left: 53px;
+  font-family: "Raleway", Helvetica;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .overlap-6 {
+  position: absolute;
+  width: 455px;
+  height: 52px;
+  top: 53px;
+  left: 1327px;
+  background-image: url(./img/rectangle-8.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .group-4 {
+  position: absolute;
+  width: 23px;
+  height: 24px;
+  top: 14px;
+  left: 16px;
+}
+
+.desktop .text-wrapper-20 {
+  position: absolute;
+  height: 22px;
+  top: 15px;
+  left: 49px;
+  font-family: "Raleway", Helvetica;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-21 {
+  position: absolute;
+  height: 23px;
+  top: 75px;
+  left: 733px;
+  font-family: "Radio Canada", Helvetica;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-22 {
+  position: absolute;
+  width: 279px;
+  height: 61px;
+  top: 14px;
+  left: 731px;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(102, 102, 102) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Raleway", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .image-2 {
+  width: 53px;
+  height: 52px;
+  top: 53px;
+  left: 1821px;
+  position: absolute;
+  object-fit: cover;
+}
+
+
+
+
+
+* CSS GLOBAL*
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway:500,700|Radio+Canada:500|Poppins:500|Radley:400");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
 
