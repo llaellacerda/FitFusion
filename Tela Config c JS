@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitFusion - Configurações</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <i class="fas fa-cog"></i>
+            <span>CONFIGURAÇÕES</span>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="#privacidade">Privacidade</a>
+            <a href="#acessibilidade">Acessibilidade</a>
+            <a href="#conta">Configurações da conta</a>
+            <a href="#seguranca" class="active">Segurança</a>
+            <a href="#atualizacoes">Atualizações e backup</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <header class="header">
+            <img src="logofitfusionn.png" alt="FitFusion" class="logo">
+            <input type="search" placeholder="Search" class="search-bar">
+        </header>
+
+        <div class="content-grid">
+            <div class="card">
+                <h2>Segurança</h2>
+                <div class="form-group">
+                    <label>Autenticação em Dois Fatores</label>
+                    <input type="text" placeholder="Seu Número de telefone">
+                </div>
+                <div class="form-group">
+                    <label>Confirme seu E-mail</label>
+                    <input type="email" placeholder="Seu E-mail">
+                </div>
+                <div class="form-group">
+                    <label>Mensagens Diretas</label>
+                    <div class="toggle-group">
+                        <input type="radio" id="mostrar" name="mensagens" checked>
+                        <label for="mostrar">Mostrar</label>
+                        <input type="radio" id="nao-mostrar" name="mensagens">
+                        <label for="nao-mostrar">Não Mostrar</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Contatos</h2>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <span>@FitFusion</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>(83) 9999-9999</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="far fa-envelope"></i>
+                        <span>fitfusion@gmail.com</span>
+                    </div>
+                </div>
+                <p class="help-text">Precisando de ajuda? Fale conosco!</p>
+                <img src="logofitfusionn.png" alt="FitFusion" class="logo" style="display: block; margin: 20px auto;">
+            </div>
+        </div>
+    </main>
+
+    <a href="#" class="back-button">
+        <i class="fas fa-arrow-left"></i>
+        Voltar
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+#JavaScript#
+
+// Toggle active class in sidebar
+document.querySelectorAll('.sidebar-nav a').forEach(link => {
+    link.addEventListener('click', (e) => {
+        document.querySelector('.sidebar-nav a.active')?.classList.remove('active');
+        e.target.classList.add('active');
+    });
+});
+
+// Handle radio toggle
+document.querySelectorAll('input[type="radio"]').forEach(radio => {
+    radio.addEventListener('change', (e) => {
+        const labels = e.target.parentElement.querySelectorAll('label');
+        labels.forEach(label => label.style.fontWeight = '400');
+        e.target.nextElementSibling.style.fontWeight = '500';
+    });
+});
+
+
+#CSS#
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-right: 1px solid #eee;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar-nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+.sidebar-nav a:hover {
+    background-color: #f5f5f5;
+}
+
+.sidebar-nav a.active {
+    background-color: #f0f0f0;
+    font-weight: 500;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.toggle-group {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.toggle-group label {
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.toggle-group input[type="radio"] {
+    display: none;
+}
+
+.toggle-group input[type="radio"]:checked + label {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 8px;
+}
+
+.contact-item i {
+    font-size: 20px;
+    color: #666;
+}
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.help-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
