@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - Fit Fusion</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" />
+    <style>
+      body {
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5f5;
+        height: 100vh;
+      }
+
+      .container {
+        background-color: #fff;
+        width: 80%;
+        max-width: 600px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .container h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .icons {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+      }
+
+      .icons div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .icons img {
+        width: 40px;
+        margin-bottom: 5px;
+      }
+
+      .location,
+      .hours {
+        margin: 15px 0;
+        font-size: 18px;
+      }
+
+      .button-container {
+        margin-top: 20px;
+      }
+
+      .button-container button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .button-container button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="account_circle.png" alt="Contate - nos!"/>
+      <p>Contate - nos!<p>
+      <div class="icons">
+        <div>
+          <img src="Instagram.png" alt="Instagram" />
+          <p>@FitFusion</p>
+        </div>
+        <div>
+          <img src="🦆 icon _whatsapp_.png" alt="WhatsApp" />
+          <p>(83) 99999-9999</p>
+        </div>
+        <div>
+          <img src="Group 236.png" alt="Email" />
+          <p>fitfusion@gmail.com</p>
+        </div>
+        <div>
+          <img src="Facebook.png" alt="Facebook" />
+          <p>Fit Fusion</p>
+        </div>
+      </div>
+      <div class="location">
+        <img src="location_on.png" alt="Patos - PB"/>
+        <p>Patos - PB</p>
+      </div>
+      <div class="hours">
+        <img src="Clock.png" alt="24H"/>
+        <p>24H</p>
+      </div>
+      <div class="button-container">
+        <button onclick="voltar()">Voltar</button>
+      </div>
+    </div>
+
+    <script>
+      function voltar() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>
